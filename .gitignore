@@ -1,0 +1,17 @@
+# Arduino
+*.hex
+*.elf
+*.eep
+*.map
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build folders
+build/
+dist/
