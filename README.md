@@ -156,31 +156,8 @@ byte allowedUID[] = {0xD6, 0x02, 0xF6, 0x05};
 
 Jeżeli używasz innej karty, odczytaj jej UID i podmień wartości w tablicy `allowedUID`.
 
-## Wymagania zadania — kontrola
-
-Projekt spełnia warunki widoczne w instrukcji:
-
-- posiada kod źródłowy gotowy do umieszczenia w publicznym repozytorium,
-- zawiera instrukcję wykonania krok po kroku,
-- zawiera licencję CC0,
-- projekt jest edukacyjny i możliwy do rozwijania przez innych uczniów,
-- dokumentacja opisuje elementy, podłączenie i obsługę,
-- program zawiera komentarze opisujące działanie najważniejszych bloków.
-
-## Co pokazać na filmie / prezentacji
-
-Na nagraniu warto pokazać:
-
-1. kartkę z imieniem, nazwiskiem i numerem indeksu,
-2. cały układ elektroniczny,
-3. działanie LCD,
-4. wpisanie błędnego kodu i uruchomienie alarmu,
-5. wyłączenie alarmu kartą RFID,
-6. wpisanie poprawnego kodu,
-7. otwarcie zamka serwem,
-8. ponowne zamknięcie zamka.
-
 ## Uwagi techniczne
+
 
 - RC522 musi być zasilany z 3.3V.
 - Wszystkie elementy muszą mieć wspólne GND.
